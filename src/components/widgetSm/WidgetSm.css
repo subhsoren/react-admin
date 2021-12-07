@@ -9,8 +9,8 @@
     font-weight: 600;
 }
 .widgetSmImg{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius:50%;
     -webkit-border-radius:50%;
     -moz-border-radius:50%;
@@ -37,8 +37,8 @@
 .widgetSmUsername{
     font-weight: 600;
 }
-.widgtSmUserTitle{
-    font-weight: 300;
+.widgetSmUserTitle{
+    font-weight: 400;
 }
 .widgetSmButton{
     display: flex;
