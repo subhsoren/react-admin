@@ -48,3 +48,16 @@ export const userData = [
     "Active User": 1490,
   },
 ];
+
+
+export const userRows = [
+  {
+    id: 1,
+    username: "Jon Snow",
+    avatar:
+      "https://images.pexels.com/photos/1547971/pexels-photo-1547971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    email: "johnsnow@gmail.com",
+    status: "active",
+    transaction: "$560.00",
+  },
+];
