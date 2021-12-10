@@ -1,6 +1,6 @@
 import React from 'react';
 import './User.css';
-import {PermIdentity, CalendarToday, PhoneAndroid, MailOutline, LocationSearching} from '@mui/icons-material';
+import {PermIdentity, CalendarToday, PhoneAndroid, MailOutline, LocationSearching, Publish} from '@mui/icons-material';
 
 const User = () => {
     return (
@@ -46,9 +46,39 @@ const User = () => {
                 </div>
                 <div className="userUpdate">
                     <span className="userUpdateTitle">Edit </span>
-                    <div className="userUpdateDetail">
-                        <input type="text" className="thhis" />
-                    </div>
+                    <form className="userUpdateForm">
+                        <div className="userUpdateLeft">
+                            <div className="userUpdateItem">
+                                <label>Username</label>
+                                <input type="text" placeholder="katemarie12" className="userUpdateInput" />
+                            </div>
+                             <div className="userUpdateItem">
+                                <label>Full Name</label>
+                                <input type="text" placeholder="Kate Marie" className="userUpdateInput" />
+                            </div>
+                             <div className="userUpdateItem">
+                                <label>Email</label>
+                                <input type="text" placeholder="katemarie12@gmail.com" className="userUpdateInput" />
+                            </div>
+                             <div className="userUpdateItem">
+                                <label>Phone Number</label>
+                                <input type="text" placeholder="7234678671" className="userUpdateInput" />
+                            </div>
+                             <div className="userUpdateItem">
+                                <label>Address</label>
+                                <input type="text" placeholder="New York" className="userUpdateInput" />
+                            </div>
+                        </div>
+                        <div className="userUpdateRight">
+                            <div className="userUpdateUpload">
+                                <img src="https://images.pexels.com/photos/8942523/pexels-photo-8942523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" className="userUpdateImg" />
+                                <label htmlFor="file"> <Publish className="userUpdateIcon" /></label>
+                                <input type="file" id="file" style={{display: 'none'}} />
+                            </div>
+                            <button className="userUpdateButton">Update</button>
+                        </div>
+                    </form>
+                  
                 </div>
             </div>
             
