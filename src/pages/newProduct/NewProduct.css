@@ -1,0 +1,56 @@
+.newProduct{
+    flex: 4;
+    padding: 20px;
+}
+.addProductForm{
+    margin-top: 10px;
+
+}
+.addProductItem{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.addProductItem > label {
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.addProductItem > input {
+    border: 1px solid gray;
+    padding: 10px;
+    height: 40px;
+    outline: none;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.addProductItem > select {
+    border: 1px solid gray;
+    padding: 10px;
+    height: 40px;
+    outline: none;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.addProductButton {
+    margin-top: 10px;
+    padding: 7px 10px;
+    border: none !important;
+    background-color: darkblue;
+    color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
