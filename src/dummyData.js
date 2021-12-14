@@ -61,3 +61,14 @@ export const userRows = [
     transaction: "$560.00",
   },
 ];
+
+export const productRows = [
+  {
+    id: 1,
+    name: "Apple Airpods",
+    img: "https://images.pexels.com/photos/3921805/pexels-photo-3921805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+   stock: "123",
+    status: "active",
+   price: "$560.00",
+  },
+];
