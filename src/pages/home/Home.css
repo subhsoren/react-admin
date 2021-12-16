@@ -1,6 +1,6 @@
 .home{
     flex: 4;
-    background-color:green;
+    background-color:#F1F5F9;
 }
 .homeWidgets{
     display: flex;
