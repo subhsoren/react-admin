@@ -16,6 +16,7 @@ const WidgetSm = ({title}) => {
                     <button className="widgetSmButton">
                          Display
                          <Visibility className="widgetSmIcon" />
+                        
                     
                     </button>
                 </li>
