@@ -16,9 +16,7 @@ const WidgetSm = ({title}) => {
                     <button className="widgetSmButton">
                          Display
                          <Visibility className="widgetSmIcon" />
-                         <h3>Statistics</h3>
-                         <span>Total number of profits</span>
-                         <span>$2,450. 00</span>
+                       
                          
 
                         

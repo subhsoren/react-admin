@@ -42,6 +42,7 @@ const SideBar = () => {
                             <li className="sidebarListItem">
                                <Storefront className="sidebarIcon" />
                                Products
+
                             </li>
                         </Link>
                        
@@ -88,6 +89,7 @@ const SideBar = () => {
                             <Report className="sidebarIcon" />
                             Reports
                         </li>
+                       
                        
                     </ul>
                 </div>
