@@ -46,6 +46,7 @@ const WidgetLg = () => {
                        <Button type="Pending" />
                    </td>
                </tr>
+               
            </table>
         </div>
     )
